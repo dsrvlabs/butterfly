@@ -3,3 +3,6 @@ Description=Butterfly Terminal Server
 
 [Service]
 ExecStart=/usr/bin/butterfly.server.py
+
+[Install]
+WantedBy=multi-user.target
